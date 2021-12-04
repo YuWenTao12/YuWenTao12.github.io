@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuwentao12.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-04T15:11:45.013Z</updated>
+    <updated>2021-12-04T15:12:22.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuwentao12.github.io/"/>
     <link rel="self" href="https://yuwentao12.github.io/atom.xml"/>
@@ -17,7 +17,25 @@
         </link>
         <updated>2021-12-04T15:04:06.000Z</updated>
         <content type="html"><![CDATA[<hr>
-<p>[TOC]</p>
+<p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#web%E7%89%88%E6%9C%AC">web版本</a></li>
+<li><a href="#vscode">Vscode</a></li>
+<li><a href="#%E5%9B%BE%E8%A7%A3%E6%AD%A3%E5%88%99">图解正则</a></li>
+<li><a href="#%E7%A4%BE%E5%8C%BA%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC">社区其他版本</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</p>
 <blockquote>
 <p>GitHub地址：https://github.com/any86/any-rule</p>
 <p>any-rule正则插件，支持web/vscode/idea/Alfred Workflow多个平台</p>
