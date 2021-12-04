@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuwentao12.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-04T08:42:03.436Z</updated>
+    <updated>2021-12-04T08:42:52.723Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuwentao12.github.io/"/>
     <link rel="self" href="https://yuwentao12.github.io/atom.xml"/>
@@ -17,7 +17,7 @@
         </link>
         <updated>2021-12-04T06:42:00.000Z</updated>
         <summary type="html"><![CDATA[<h4 id="你好啊">你好啊</h4>
-<p>[toc]</p>
+<p>[TOC]</p>
 <h5 id="标题2">标题2</h5>
 <ol>
 <li>啊大苏打</li>
@@ -27,7 +27,7 @@
 <p><mark>asdasda</mark></p>
 ]]></summary>
         <content type="html"><![CDATA[<h4 id="你好啊">你好啊</h4>
-<p>[toc]</p>
+<p>[TOC]</p>
 <h5 id="标题2">标题2</h5>
 <ol>
 <li>啊大苏打</li>
