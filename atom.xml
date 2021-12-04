@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuwentao12.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-04T08:55:17.686Z</updated>
+    <updated>2021-12-04T13:04:59.655Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuwentao12.github.io/"/>
     <link rel="self" href="https://yuwentao12.github.io/atom.xml"/>
@@ -10,6 +10,113 @@
     <logo>https://yuwentao12.github.io/images/avatar.png</logo>
     <icon>https://yuwentao12.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Node.js版本切换（n或nvm）]]></title>
+        <id>https://yuwentao12.github.io/post/nodejs-ban-ben-qie-huan-n-huo-nvm/</id>
+        <link href="https://yuwentao12.github.io/post/nodejs-ban-ben-qie-huan-n-huo-nvm/">
+        </link>
+        <updated>2021-12-04T13:04:21.000Z</updated>
+        <content type="html"><![CDATA[<hr>
+<p>[TOC]</p>
+<h4 id="n">n</h4>
+<blockquote>
+<p>n是Node的一个模块。</p>
+</blockquote>
+<ul>
+<li>
+<p>安装：</p>
+<pre><code class="language-shell">sudo npm install -g n
+</code></pre>
+</li>
+<li>
+<p>版本切换：</p>
+<blockquote>
+<p>输入n，就会出现安装的node版本列表，如果前面有个&quot;o&quot;标识，表示这是你在当前正在使用的node版本</p>
+<pre><code class="language-shell">n
+
+     5.10.1 
+o      6.2.2 
+     7.0.0
+</code></pre>
+</blockquote>
+</li>
+<li>
+<p>安装某个版本</p>
+<pre><code class="language-shell">n x.x.x.x
+</code></pre>
+</li>
+<li>
+<p>安装最新版本</p>
+<pre><code class="language-shell">n latest
+</code></pre>
+</li>
+<li>
+<p>安装稳定版本</p>
+<pre><code class="language-shell">n stable
+</code></pre>
+</li>
+<li>
+<p>删除某个版本</p>
+<pre><code class="language-shell">n rm x.x.x.x
+</code></pre>
+</li>
+<li>
+<p>指定某个版本来执行文件</p>
+<pre><code class="language-shell">n user x.x.x some.js
+</code></pre>
+</li>
+</ul>
+<h4 id="nvm">nvm</h4>
+<blockquote>
+<p>nvm与n的实现方式不同，nvm是通过shell脚本实现的。</p>
+</blockquote>
+<ul>
+<li>
+<p>安装：</p>
+<pre><code class="language-shell">curl https://raw.github.com/creationix/nvm/v0.4.0/install.sh | sh
+或
+wget -qO- https://raw.github.com/creationix/nvm/v0.4.0/install.sh | sh
+</code></pre>
+<ul>
+<li>上述两个脚本会把nvm库clone到<sub>/.nvm，然后在</sub>/.bash_profile、<sub>/.zshrc或</sub>/.profile末尾添加环境变量，source生效。</li>
+</ul>
+</li>
+<li>
+<p>安装某个版本node</p>
+<pre><code class="language-shell">nvm install x.x.x
+</code></pre>
+</li>
+<li>
+<p>使用指定版本</p>
+<pre><code class="language-shell">nvm use x.x.x
+</code></pre>
+</li>
+<li>
+<p>查看当前已经安装的版本</p>
+<pre><code class="language-shell">nvm ls
+.nvm
+-&gt; x.x.x
+</code></pre>
+</li>
+<li>
+<p>查看正在使用的版本</p>
+<pre><code class="language-shell">nvm current
+vx.x.x
+</code></pre>
+</li>
+<li>
+<p>指定某个版本来执行文件</p>
+<pre><code class="language-shell">nvm run x.x.x some.js
+</code></pre>
+</li>
+<li>
+<p>卸载nvm</p>
+<pre><code class="language-shell">rm -rf ~/.nvm
+</code></pre>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[测试文章]]></title>
         <id>https://yuwentao12.github.io/post/ce-shi-wen-zhang/</id>
@@ -75,7 +182,8 @@
 <p><mark>asdasda</mark></p>
 <!-- more -->
 <blockquote>
-<p>sadsadasdasda</p>
+<p>sadsadasdasda<br>
+啊倒萨大大</p>
 </blockquote>
 ]]></content>
     </entry>
