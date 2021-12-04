@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuwentao12.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-04T14:59:06.758Z</updated>
+    <updated>2021-12-04T15:09:29.571Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuwentao12.github.io/"/>
     <link rel="self" href="https://yuwentao12.github.io/atom.xml"/>
@@ -10,6 +10,70 @@
     <logo>https://yuwentao12.github.io/images/avatar.png</logo>
     <icon>https://yuwentao12.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[any-rule正则插件]]></title>
+        <id>https://yuwentao12.github.io/post/any-rule-zheng-ze-cha-jian/</id>
+        <link href="https://yuwentao12.github.io/post/any-rule-zheng-ze-cha-jian/">
+        </link>
+        <updated>2021-12-04T15:04:06.000Z</updated>
+        <content type="html"><![CDATA[<hr>
+<p>[TOC]</p>
+<blockquote>
+<p>GitHub地址：https://github.com/any86/any-rule</p>
+<p>any-rule正则插件，支持web/vscode/idea/Alfred Workflow多个平台</p>
+</blockquote>
+<h4 id="web版本">web版本</h4>
+<blockquote>
+<p>https://any86.github.io/any-rule/</p>
+</blockquote>
+<h4 id="vscode">Vscode</h4>
+<ul>
+<li>安装：在vscode插件商店中搜索&quot;any-rule&quot;</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://image.ttpc.asia/images/vscode-1.png" alt="" loading="lazy"></figure>
+<ul>
+<li>
+<p>使用：</p>
+<ul>
+<li>
+<p>方式1：</p>
+<ol>
+<li>
+<p>F1或（Windows：shift+ctrl+p）或（Mac：fn+F1）打开正则列表</p>
+</li>
+<li>
+<p>输入关键词搜索，比如&quot;手机&quot;：</p>
+<figure data-type="image" tabindex="2"><img src="https://image.ttpc.asia/images/vscode-1.gif" alt="" loading="lazy"></figure>
+</li>
+</ol>
+</li>
+<li>
+<p>方式2：右键选择&quot;正则大全&quot;：</p>
+<figure data-type="image" tabindex="3"><img src="https://image.ttpc.asia/images/vscode-2.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>方式3：在代码任意位置输入&quot;@zz&quot;：</p>
+<figure data-type="image" tabindex="4"><img src="https://image.ttpc.asia/images/vscode-2.gif" alt="" loading="lazy"></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="图解正则">图解正则</h4>
+<blockquote>
+<p>每次使用any-rule插入正则后，都会弹出提示，可以查看&quot;图解正则&quot;</p>
+</blockquote>
+<figure data-type="image" tabindex="5"><img src="https://image.ttpc.asia/images/vscode-3.png" alt="" loading="lazy"></figure>
+<ul>
+<li>
+<p>图解可以看到正则解析，方便进行学习：</p>
+<figure data-type="image" tabindex="6"><img src="https://image.ttpc.asia/images/vscode-4.png" alt="" loading="lazy"></figure>
+</li>
+</ul>
+<h4 id="社区其他版本">社区其他版本</h4>
+<p><a href="https://github.com/zhoriya/idea-rule">IDEA版</a></p>
+<p><a href="https://github.com/cccyb/workflows">Alfred Workflow版</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Node.js版本切换（n或nvm）]]></title>
         <id>https://yuwentao12.github.io/post/nodejs-ban-ben-qie-huan-n-huo-nvm/</id>
